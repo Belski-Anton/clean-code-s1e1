@@ -56,15 +56,18 @@ ul {
     padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
 
     list-style: none;
 }
 
-input,button{
+input,
+button {
 
     outline: none;
 }
+
 button {
 
     background: none;
@@ -192,7 +195,7 @@ ul li.editMode input[type="text"] {
 }
 
 ul li.editMode label {
-    
+
     display: none;
 }
 
