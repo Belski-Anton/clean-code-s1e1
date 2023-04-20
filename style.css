@@ -96,7 +96,7 @@ button:hover {
     text-transform: uppercase;
 }
 
-input[type="text"] {
+.textTask{
 
     margin: 0;
     font-size: 18px;
