@@ -43,10 +43,11 @@ var createNewTaskElement=function(taskString){
     editInput.className="task";
 
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
-    editButton.className="edit";
+    editButton.className="btn";
 
     deleteButton.className="delete";
     deleteButtonImg.src='./remove.svg';
+    deleteButtonImg.className='imgDelete'
     deleteButton.appendChild(deleteButtonImg);
 
 
@@ -163,7 +164,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 
 
     //Bind editTask to edit button.
-    editButton.onclick=editTask;
+    // editButton.onclick=editTask;
     //Bind deleteTask to delete button.
     deleteButton.onclick=deleteTask;
     //Bind taskCompleted to checkBoxEventHandler.

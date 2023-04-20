@@ -68,7 +68,8 @@ button {
     outline: none;
 }
 
-.btn {
+.btn,
+.delete {
 
     background: none;
     border: 0px;
