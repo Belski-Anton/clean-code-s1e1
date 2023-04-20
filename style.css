@@ -110,7 +110,7 @@ button:hover {
     color: #888;
 }
 
-input[type="text"]:focus {
+.textTask:focus {
 
     color: #333;
 }
