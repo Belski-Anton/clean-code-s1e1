@@ -148,7 +148,7 @@ li > * {
     vertical-align: middle;
 }
 
-li > input[type="checkbox"] {
+.checkBox {
 
     margin: 0 10px;
 }
@@ -201,4 +201,5 @@ ul li .textTask {
 
     display: none;
 }
+
 
