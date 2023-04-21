@@ -191,13 +191,13 @@ ul li .textTask {
     display: none;
 }
 
-ul li.editMode .textTask {
+.editMode .textTask {
 
     display: inline-block;
     width: 224px;
 }
 
-ul li.editMode label {
+.editMode label {
 
     display: none;
 }
