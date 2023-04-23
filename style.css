@@ -56,7 +56,7 @@ ul {
     padding: 0px;
 }
 
-.listItems, 
+.list-items, 
 .title {
 
     list-style: none;
@@ -100,7 +100,7 @@ button {
     text-transform: uppercase;
 }
 
-.textTask{
+.text-task{
 
     margin: 0;
     font-size: 18px;
@@ -114,25 +114,25 @@ button {
     color: #888;
 }
 
-.textTask:focus {
+.text-task:focus {
 
     color: #333;
 }
 
 /* New Task */
-.titleText {
+.title-text {
 
     display: block;
     margin: 0 0 20px;
 }
 
-.newTask {
+.new-task {
 
     width: 318px;
 }
 
 /* Task list */
-.listItems{
+.list-items{
 
     overflow: hidden;
     padding: 20px 0;
@@ -143,17 +143,17 @@ button {
 
 }
 
-.listItems > * {
+.list-items > * {
 
     vertical-align: middle;
 }
 
-.checkBox {
+.check-box {
 
     margin: 0 10px;
 }
 
-.listItems > .nameTask {
+.list-items > .name-task {
 
     padding-left: 10px;
     box-sizing: border-box;
@@ -161,43 +161,43 @@ button {
     width: 226px;
 }
 
-.listItems > .textTask {
+.list-items > .text-task {
 
     width: 226px;
 }
 
-.delete .imgDelete {
+.delete .img-delete {
 
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.delete .imgDelete:hover {
+.delete .img-delete:hover {
 
     transform: rotateZ(0);
 }
 
 /* Completed */
-.completed-tasks .nameTask {
+.completed-tasks .name-task {
 
     text-decoration: line-through;
     color: #888;
 }
 
 /* Edit Task */
-.listItems .textTask {
+.list-items .text-task {
 
     display: none;
 }
 
-.editMode .textTask {
+.edit-mode .text-task {
 
     display: inline-block;
     width: 224px;
 }
 
-.editMode .nameTask {
+.edit-mode .name-task {
 
     display: none;
 }
