@@ -186,7 +186,7 @@ ul#completed-tasks .nameTask {
 }
 
 /* Edit Task */
-ul li .textTask {
+.listItems .textTask {
 
     display: none;
 }
