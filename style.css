@@ -179,7 +179,7 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks .nameTask {
+.completed-tasks .nameTask {
 
     text-decoration: line-through;
     color: #888;
