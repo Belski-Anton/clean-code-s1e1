@@ -153,7 +153,7 @@ button {
     margin: 0 10px;
 }
 
-.listItems > label {
+.listItems > .nameTask {
 
     padding-left: 10px;
     box-sizing: border-box;
@@ -179,7 +179,7 @@ button {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#completed-tasks .nameTask {
 
     text-decoration: line-through;
     color: #888;
@@ -197,7 +197,7 @@ ul li .textTask {
     width: 224px;
 }
 
-.editMode label {
+.editMode .nameTask {
 
     display: none;
 }
