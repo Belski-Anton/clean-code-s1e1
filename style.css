@@ -20,7 +20,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-.centered-main-page-element {
+.container {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -101,9 +101,9 @@ h2:focus {
 
 /* New Task */
 
-input#new-task {
+/* input#new-task {
   width: 318px;
-}
+} */
 
 /* Task list */
 .todo-item {
