@@ -15,8 +15,6 @@ document.getElementById("focus-input").addEventListener("click", () => {
 
 //
 
-
-
 var taskInput = document.getElementById("new-task"); //Add a new task.
 var addButton = document.getElementsByTagName("button")[0]; //first button
 var incompleteTaskHolder = document.getElementById("incompleteTasks"); //ul of #incompleteTasks
@@ -38,6 +36,8 @@ var createNewTaskElement = function (taskString) {
   //button.delete
   var deleteButton = document.createElement("button"); //delete button
   var deleteButtonImg = document.createElement("img"); //delete button image
+
+  listItem.className = "todo-item";
 
   label.innerText = taskString;
   label.className = "task";
