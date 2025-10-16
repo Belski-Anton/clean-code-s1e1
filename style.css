@@ -123,11 +123,11 @@ input[type="text"] {
   align-items: center;
 }
 
-li>* {
+.todo-item > * {
   vertical-align: middle;
 }
 
-li>input[type="checkbox"] {
+.checkbox {
   margin: 0 10px;
 }
 
