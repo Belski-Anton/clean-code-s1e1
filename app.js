@@ -40,7 +40,7 @@ var createNewTaskElement = function (taskString) {
   listItem.className = "todo-item";
 
   label.innerText = taskString;
-  label.className = "task";
+  label.className = "task-label";
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
@@ -120,6 +120,7 @@ var taskCompleted = function () {
 
   //Append the task list item to the #completed-tasks
   var listItem = this.parentNode;
+  listItem.querySelector(".task-label")?.classList.add("completed-line");
   completedTasksHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskIncomplete);
 };
@@ -130,6 +131,7 @@ var taskIncomplete = function () {
   //When the checkbox is unchecked
   //Append the task list item to the #incompleteTasks.
   var listItem = this.parentNode;
+  listItem.querySelector(".task-label")?.classList.remove("completed-line");
   incompleteTaskHolder.appendChild(listItem);
   bindTaskEvents(listItem, taskCompleted);
 };
