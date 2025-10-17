@@ -16,7 +16,7 @@ input {
   text-align: right;
 }
 
-.header-image  {
+.header-image {
   width: 100%;
 }
 
@@ -89,7 +89,7 @@ input {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+.task {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -102,15 +102,15 @@ input[type="text"] {
   color: #888;
 }
 
-/* h2:focus {
+.add-task-input:focus {
   color: #333;
-} */
+}
 
 /* New Task */
 
-/* input#new-task {
+.add-task-input {
   width: 318px;
-} */
+}
 
 /* Task list */
 .todo-item {
@@ -123,7 +123,7 @@ input[type="text"] {
   align-items: center;
 }
 
-.todo-item > * {
+.todo-item>* {
   vertical-align: middle;
 }
 
@@ -138,7 +138,7 @@ input[type="text"] {
   width: 226px;
 }
 
-li>input[type="text"] {
+.todo-item>.task {
   width: 226px;
 }
 
