@@ -6,10 +6,18 @@ body {
 }
 
 .header {
-  width: 500px;
-  margin: 0 auto;
   display: block;
   text-align: right;
+}
+
+.header_content {
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+.header__figure {
+  margin: 0;
 }
 
 .header__image {
