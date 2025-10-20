@@ -127,10 +127,6 @@
   align-items: center;
 }
 
-.task-list__item>* {
-  vertical-align: middle;
-}
-
 .task-list__checkbox {
   margin: 0 10px;
   outline: none;
